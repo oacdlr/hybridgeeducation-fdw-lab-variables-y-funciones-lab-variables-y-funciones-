@@ -7,6 +7,11 @@
 
 function invertirCadena(cadena) {
     // Escribe tu código aquí
+    let anedac=""
+    for(let i=cadena.length-1;i>=0;i--){
+        anedac+=cadena[i]
+    }
+    return anedac
 }
 
 // Exporta la función para que pueda ser utilizada en las pruebas
